@@ -11,6 +11,11 @@ Bellabeat's 5 products are:<br>
     - **Spring :** A smart water bottle that is connected to the beallbeat app, and is helpful in keeping track of the hydration levels of the users.<br>
     - **Bellabeat Membership :** A subscription-based membership program for users.<br>
 
+**Questions that will guide the analysis are:** <br>
+1. What are some trends in smart device usage?
+2. How could these trends apply to Bellabeat customers?
+3. How could these trends help influence Bellabeat Marketing Strategy?
+
 #### PROBLEM/ BUSINESS TASK/ AIM
 
 #### ANALYSIS
