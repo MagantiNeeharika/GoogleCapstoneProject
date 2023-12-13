@@ -35,7 +35,7 @@ As part of ‘Bellabeat’ Data Analysis I have mainly focused on Activity, Weig
 Refer to the **LINKS TO FILES** section for the Analyzed Dataset using R Programming.
 
 #### LINKS TO FILES
-[Bellabeat.R](https://github.com/MagantiNeeharika/GoogleCapstoneProject/blob/main/Bellabeat.R) - Analyzed Dataset of Case Study-2(Bellbeat) of Google Capstone Project using R.
+- [Bellabeat.R](https://github.com/MagantiNeeharika/GoogleCapstoneProject/blob/main/Bellabeat.R) - Analyzed Dataset of Case Study-2 (Bellabeat) of Google Capstone Project using R.
 
 #### INSIGHTS
 
