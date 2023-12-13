@@ -17,7 +17,9 @@ Bellabeat's 5 products are:<br>
 3. How could these trends help influence Bellabeat Marketing Strategy?
 
 #### PROBLEM/ BUSINESS TASK/ AIM
-
+Business Task at hand is to:
+- Find the trend's in the User's Data and Improve the Bellabeat's Customer's User experience.
+  
 #### ANALYSIS
 As part of ‘Bellabeat’ Data Analysis I have mainly focused on Activity, Weight and Sleep Data.
 So, initially I have installed and loaded the necessary packages for the Data Analysis Process. And then, I have imported datasets I will be working on under by creating data frames named activity, weight, sleep, heartrate.
