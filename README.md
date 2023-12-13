@@ -22,8 +22,8 @@ Business Task at hand is to:
 
 #### DATA & DATA SOURCE
 - Data I will be using is available on Kaggle, under the name _**FitBit Fitness Tracker Data**_, that is made available through _*Mobius*_.
-- This Data is a Third-party Data and so is not Original.
-- The data that has been collected contains personal fitness data of 30 users only, and so is not reliable.
+- This Data is a Third-party Data and so is _*not Original.*_
+- The data that has been collected contains personal fitness data of _*30 fitnes users*_ only, and so is _*not reliable/ less reliable.*_
 - 
 #### ANALYSIS
 As part of ‘Bellabeat’ Data Analysis I have mainly focused on Activity, Weight and Sleep Data.
