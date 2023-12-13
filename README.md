@@ -37,6 +37,15 @@ Refer to the **LINKS TO FILES** section for the Analyzed Dataset using R Program
 #### LINKS TO FILES
 - [Bellabeat.R](https://github.com/MagantiNeeharika/GoogleCapstoneProject/blob/main/Bellabeat.R) - Analyzed Dataset of Case Study-2 (Bellabeat) of Google Capstone Project using R.
 
+#### OBSERVATIONS
+- The total distinct participants from each data frame are varied.
+            - 'activity' dataframe has 33 distinct participants data
+            - 'weight' dataframe has only 8 distinct participants data
+            - 'sleep' dataframe has 24 distinct participants data
+- As there are only 8 distinct participants data, I have checked if there is any significant weight change from the weight log data and have reached to a point that there are no significant changes in the weight of those 8 participants.
+- I have checked for empty values in all the dataframes and have found 65 missing values out of 67 rows of data from the 'Fat' column of the 'weight' dataframe and so have deleted the entire column as there is no space for any analysis.
+- After taking a clearer look at the structure of the dataframes, the Date columns data type has been set to 'char' datatype in all the dataframes, so I have formatted it to the relevant datatype.
+- 
 #### INSIGHTS
 
 #### RECOMMENDATIONS
