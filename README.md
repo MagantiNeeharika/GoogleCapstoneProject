@@ -19,7 +19,12 @@ Bellabeat's 5 products are:<br>
 #### PROBLEM/ BUSINESS TASK/ AIM
 Business Task at hand is to:
 - Find the trend's in the User's Data and Improve the Bellabeat's Customer's User experience.
-  
+
+#### DATA & DATA SOURCE
+- Data I will be using is available on Kaggle, under the name _**FitBit Fitness Tracker Data**_, that is made available through _*Mobius*_.
+- This Data is a Third-party Data and so is not Original.
+- The data that has been collected contains personal fitness data of 30 users only, and so is not reliable.
+- 
 #### ANALYSIS
 As part of ‘Bellabeat’ Data Analysis I have mainly focused on Activity, Weight and Sleep Data.
 So, initially I have installed and loaded the necessary packages for the Data Analysis Process. And then, I have imported datasets I will be working on under by creating data frames named activity, weight, sleep, heartrate.
