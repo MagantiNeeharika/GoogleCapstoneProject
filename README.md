@@ -22,9 +22,10 @@ Business Task at hand is to:
 
 #### DATA & DATA SOURCE
 - Data I will be using is available on Kaggle, under the name _**FitBit Fitness Tracker Data**_, that is made available through _*Mobius*_.
-- This Data is a Third-party Data and so is _*not Original.*_
+- This data is a Third-party Data and so is _*not Original.*_
 - The data that has been collected contains personal fitness data of _*30 fitnes users*_ only, and so is _*not reliable/ less reliable.*_
-- 
+- This dataset includes data of physical activity, heart rate, sleep and calories.
+- This dataset contains 18 CSV files that are available in long format.
 #### ANALYSIS
 As part of ‘Bellabeat’ Data Analysis I have mainly focused on Activity, Weight and Sleep Data.
 So, initially I have installed and loaded the necessary packages for the Data Analysis Process. And then, I have imported datasets I will be working on under by creating data frames named activity, weight, sleep, heartrate.
