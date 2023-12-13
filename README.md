@@ -1,6 +1,8 @@
 ## Google Capstone Project
 ### BELLABEAT CASE STUDY
 #### BACKGROUND
+'Bellabeat', a high-tech manufacturer of health-focused products for women, and is a successful small company who has the potential to become a larger player in the global smart device market.
+Bellabeat has products that collect data related to the activity, sleep, stress, menstrual cycle, and mindfulness habits.
 
 #### PROBLEM/ BUSINESS TASK/ AIM
 
