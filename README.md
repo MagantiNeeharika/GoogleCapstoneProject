@@ -27,7 +27,7 @@ Business Task at hand is to:
 - This dataset includes data of physical activity, heart rate, sleep, calories and other multiple fields making the dataset a _*little comprehensive.*_
 - This dataset contains 18 CSV files that are available in long format.
 
-_**Tools Used:**_ R Programming Language, RStudio
+_**Tools Used:**_ R Programming Language, RStudio <br>
 _**Packages Used:**_ tidyverse, ggplot2, janitor
 
 #### ANALYSIS
