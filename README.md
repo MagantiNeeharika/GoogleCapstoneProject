@@ -5,11 +5,11 @@
 Bellabeat has 5 products that collect and keep track of user's data related to the activity, sleep, stress, menstrual cycle, and mindfulness habits.
 
 Bellabeat's 5 products are:<br>
-    - **Bellabeat App :** Provides users with health related data and helps in understanding the user's habits and healthy decisions.<br>
-    - **Leaf :** A wellness tracker that is directly connected to the Bellabeat App.<br>
-    - **Time :** A wellness watch that tracks the user's data and is also connected to the bellabeat app.<br>
-    - **Spring :** A smart water bottle that is connected to the beallbeat app, and is helpful in keeping track of the hydration levels of the users.<br>
-    - **Bellabeat Membership :** A subscription-based membership program for users.<br>
+- **Bellabeat App :** Provides users with health related data and helps in understanding the user's habits and healthy decisions.<br>
+- **Leaf :** A wellness tracker that is directly connected to the Bellabeat App.<br>
+- **Time :** A wellness watch that tracks the user's data and is also connected to the bellabeat app.<br>
+- **Spring :** A smart water bottle that is connected to the beallbeat app, and is helpful in keeping track of the hydration levels of the users.<br>
+- **Bellabeat Membership :** A subscription-based membership program for users.<br>
 
 **Questions that will guide the analysis are:** <br>
 1. What are some trends in smart device usage?
