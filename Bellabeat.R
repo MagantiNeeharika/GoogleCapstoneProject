@@ -34,7 +34,8 @@ head(sleep)
 colnames(sleep)
 str(sleep)
 
-#Change the Data type of Date in all the Dataframes (as it is a char type)
+#Cleaning the Data
+#Changing Data Type to relevant one
 activity <- activity %>% mutate(ActivityDate=mdy(ActivityDate))
 weight <- weight %>% mutate(Date=mdy_hms(Date))
 sleep <- sleep %>% mutate(SleepDay=mdy_hms(SleepDay))
@@ -44,7 +45,7 @@ sum(is.na(activity))
 sum(is.na(weight))
 sum(is.na(sleep))
 
-#No missing values found in any of the data frames except in weight data frame. So, looking at the data frame a little closer
+#65 missing values found in weight data to checking it a little closer
 summary(weight)
 
 #Missing values all are from same column so delete the entire column
