@@ -30,7 +30,6 @@ Business Task at hand is to:
 _**Tools Used:**_ R Programming Language, RStudio<br>
 _**Packages Used:**_ tidyverse, ggplot2, janitor
 
-#### ANALYSIS
 As part of ‘Bellabeat’ Data Analysis I have mainly focused on Activity, Weight and Sleep Data. So, I will be using only few files from the dataset.
 Refer to the **LINKS TO FILES** section for the Analyzed Dataset using R Programming.
 
@@ -42,10 +41,21 @@ Refer to the **LINKS TO FILES** section for the Analyzed Dataset using R Program
             - 'activity' dataframe has 33 distinct participants data
             - 'weight' dataframe has only 8 distinct participants data
             - 'sleep' dataframe has 24 distinct participants data
-- As there are only 8 distinct participants data, I have checked if there is any significant weight change from the weight log data and have reached to a point that there are no significant changes in the weight of those 8 participants.
-- I have checked for empty values in all the dataframes and have found 65 missing values out of 67 rows of data from the 'Fat' column of the 'weight' dataframe and so have deleted the entire column as there is no space for any analysis.
-- After taking a clearer look at the structure of the dataframes, the Date columns data type has been set to 'char' datatype in all the dataframes, so I have formatted it to the relevant datatype.
-- 
+- As there are only 8 distinct participants data, I have checked if there is any significant weight change from the weight log data and there are no significant changes.
+- I have checked for empty/missing values while cleaning the data and have found 65 missing values out of 67 rows of data from the 'Fat' column of the 'weight' dataframe and so have deleted the entire column as there is no space for any analysis.
+- After taking a clearer look at the structure of the dataframes, the 'Date' columns data type has been set to 'char' datatype in all the dataframes, so I have formatted it to the relevant datatype.
+- Summari
+
+#### ANALYSIS
+I have done the Analysis focusing on 6 relations:
+- Total Steps Vs. Calories
+- Total Minutes Asleep Vs Total Time in Bed
+- Sleep duration Vs Sedentary Time
+- Distribution of Total Minutes Asleep
+- Total Distance Vs Calories
+- Total Steps Vs Sedentary Minutes
+
+
 #### INSIGHTS
 
 #### RECOMMENDATIONS
