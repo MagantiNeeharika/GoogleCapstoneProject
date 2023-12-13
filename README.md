@@ -44,7 +44,12 @@ Refer to the **LINKS TO FILES** section for the Analyzed Dataset using R Program
 - As there are only 8 distinct participants data, I have checked if there is any significant weight change from the weight log data and there are no significant changes.
 - I have checked for empty/missing values while cleaning the data and have found 65 missing values out of 67 rows of data from the 'Fat' column of the 'weight' dataframe and so have deleted the entire column as there is no space for any analysis.
 - After taking a clearer look at the structure of the dataframes, the 'Date' columns data type has been set to 'char' datatype in all the dataframes, so I have formatted it to the relevant datatype.
-- Summari
+- Observations from Summaries of activity, sleep and weight dataframes are as follows:
+            - Average Sedentary Minutes is about 16.5 Hours (991.2 Minutes)
+            - Average steps per day is 7638
+            - Most of the participants are lightly Active
+            - On an average, participants spend about 7.64 hours in bed
+            - On an average, participants are asleep for about 6.99 hours  
 
 #### ANALYSIS
 I have done the Analysis focusing on 6 relations:
