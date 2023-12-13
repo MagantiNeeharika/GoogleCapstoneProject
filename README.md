@@ -32,8 +32,10 @@ _**Packages Used:**_ tidyverse, ggplot2, janitor
 
 #### ANALYSIS
 As part of ‘Bellabeat’ Data Analysis I have mainly focused on Activity, Weight and Sleep Data. So, I will be using only few files from the dataset.
+Refer to the **LINKS TO FILES** section for the Analyzed Dataset using R Programming.
 
 #### LINKS TO FILES
+[Bellabeat.R](https://github.com/MagantiNeeharika/GoogleCapstoneProject/blob/main/Bellabeat.R) - Analyzed Dataset of Case Study-2(Bellbeat) of Google Capstone Project using R.
 
 #### INSIGHTS
 
