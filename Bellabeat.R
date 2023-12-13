@@ -8,7 +8,7 @@ library(tidyverse)
 library(ggplot2)
 library(janitor)
 
-#Import Datasets into a new Dataframe
+#Importing Datasets
 activity <- read.csv("/Users/neeharikamaganti/Desktop/Studies & Courses/Google Data Analytics Certificate Docs/Course 8/Fitabase Data 4.12.16-5.12.16/dailyActivity_merged.csv")
 weight <- read.csv("/Users/neeharikamaganti/Desktop/Studies & Courses/Google Data Analytics Certificate Docs/Course 8/Fitabase Data 4.12.16-5.12.16/weightLogInfo_merged.csv")
 sleep <- read.csv("/Users/neeharikamaganti/Desktop/Studies & Courses/Google Data Analytics Certificate Docs/Course 8/Fitabase Data 4.12.16-5.12.16/sleepDay_merged.csv")
@@ -34,7 +34,7 @@ head(sleep)
 colnames(sleep)
 str(sleep)
 
-#Change the Data type of Date in all the Dataframes (as it is in char type)
+#Change the Data type of Date in all the Dataframes (as it is a char type)
 activity <- activity %>% mutate(ActivityDate=mdy(ActivityDate))
 weight <- weight %>% mutate(Date=mdy_hms(Date))
 sleep <- sleep %>% mutate(SleepDay=mdy_hms(SleepDay))
@@ -44,7 +44,7 @@ sum(is.na(activity))
 sum(is.na(weight))
 sum(is.na(sleep))
 
-#No missing values found in all the data frames except in weight data frame. So, looking at the data frame a little closer
+#No missing values found in any of the data frames except in weight data frame. So, looking at the data frame a little closer
 summary(weight)
 
 #Missing values all are from same column so delete the entire column
