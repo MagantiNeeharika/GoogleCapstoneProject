@@ -60,7 +60,15 @@ I have done the Analysis focusing on 6 relations:
 - Total Distance Vs Calories
 - Total Steps Vs Sedentary Minutes
 
-
 #### INSIGHTS
+- The more steps the user's take, the more calories are burnt.
+- The more the user spends the time in bed, the more time they are asleep.
+- The less active the user is, the less time they are asleep.
+- The more sedentary minutes, the less active and the less steps taken by the user.
 
 #### RECOMMENDATIONS
+A few recommendations and suggestions for the 'Bellabeat' team, based on the analysis are:
+- As there is not much data collected, I would recommend collecting more data to see more trends in the smart device usage.
+- Creating & Sending an alert, when the user is sedentary for longer periods of time can help in increase the chances of reaching their daily step goal of 10,000(a daily step count recommended by CDC).
+- Bellabeat can create and send an alert to sleep at a suggested time in order for the user to get a proper 7-8 hours of sleep daily.
+- Bellabeat can also create a few suggestions regarding the food/ calorie-intake for the users based on their profile info. This way they can collect more data from the users, regarding weight as well as help users who are trying to loose or gain weight.
