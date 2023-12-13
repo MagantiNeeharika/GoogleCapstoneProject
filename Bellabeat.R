@@ -10,12 +10,10 @@ library(janitor)
 
 #Import Datasets into a new Dataframe
 activity <- read.csv("/Users/neeharikamaganti/Desktop/Studies & Courses/Google Data Analytics Certificate Docs/Course 8/Fitabase Data 4.12.16-5.12.16/dailyActivity_merged.csv")
-met <- read.csv("/Users/neeharikamaganti/Desktop/Studies & Courses/Google Data Analytics Certificate Docs/Course 8/Fitabase Data 4.12.16-5.12.16/minuteMETsNarrow_merged.csv")
-heartrate <- read.csv("/Users/neeharikamaganti/Desktop/Studies & Courses/Google Data Analytics Certificate Docs/Course 8/Fitabase Data 4.12.16-5.12.16/heartrate_seconds_merged.csv")
 weight <- read.csv("/Users/neeharikamaganti/Desktop/Studies & Courses/Google Data Analytics Certificate Docs/Course 8/Fitabase Data 4.12.16-5.12.16/weightLogInfo_merged.csv")
 sleep <- read.csv("/Users/neeharikamaganti/Desktop/Studies & Courses/Google Data Analytics Certificate Docs/Course 8/Fitabase Data 4.12.16-5.12.16/sleepDay_merged.csv")
 
-#Getting Familiarizing with Data
+#Getting Familiarized with Data
 head(activity)
 colnames(activity)
 str(activity)
@@ -38,15 +36,11 @@ str(sleep)
 
 #Change the Data type of Date in all the Dataframes (as it is in char type)
 activity <- activity %>% mutate(ActivityDate=mdy(ActivityDate))
-met <- met %>% mutate(ActivityMinute=mdy_hms(ActivityMinute))
-heartrate <- heartrate %>% mutate(Time=mdy_hms(Time))
 weight <- weight %>% mutate(Date=mdy_hms(Date))
 sleep <- sleep %>% mutate(SleepDay=mdy_hms(SleepDay))
 
 #Check for number of missing values/ errors
 sum(is.na(activity))
-sum(is.na(met))
-sum(is.na(heartrate))
 sum(is.na(weight))
 sum(is.na(sleep))
 
@@ -58,8 +52,6 @@ weight$Fat <- NULL
 
 #Find number of participants in every data frame
 n_distinct(activity$Id)
-n_distinct(met$Id)
-n_distinct(heartrate$Id)
 n_distinct(weight$Id)
 n_distinct(sleep$Id)
 
@@ -100,10 +92,8 @@ activitySleep <- merge(sleep, activity, by = c('Id', 'Date'))
 
 #Total Steps Vs Calories
 ggplot(data=activity, aes(x=TotalSteps, y=Calories)) + geom_point() + geom_smooth() + labs(title="Total Steps Vs Calories")
-#ggplot(data=activitySleep, aes(x=TotalSteps, y=Calories)) + geom_point() + geom_smooth()
 
 #Total Minutes Asleep Vs Total Time in Bed
-#ggplot(data=sleep, aes(x=TotalMinutesAsleep, y=TotalTimeInBed)) + geom_point() + labs(title="Total Minutes Asleep Vs Total Time in Bed")
 ggplot(data=activitySleep, aes(x=TotalMinutesAsleep, y=TotalTimeInBed)) + geom_point() + labs(title="Total Minutes Asleep Vs Total Time in Bed")
 
 #Sleep Duration Vs Sedentary Time
@@ -119,4 +109,3 @@ ggplot(data=activity, aes(x=TotalDistance, y=Calories)) + geom_point()
 #Total Steps Vs Sedentary Minutes
 ggplot(data=activity, aes(x=TotalSteps, y=SedentaryMinutes, color=Calories)) + geom_point() + 
   labs(title = 'Total steps Vs Sedentary Minutes', subtitle = 'Calories burned')
-
